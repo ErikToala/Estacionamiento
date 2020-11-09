@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="canvas" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="753.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Principal.View.Controller">
+   <children>
+      <Line accessibleRole="CHECK_MENU_ITEM" cache="true" endX="28.0" endY="122.0" layoutX="618.0" layoutY="139.0" startX="28.0" startY="-9.0" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8d8d8d" height="602.0" layoutX="26.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="649.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#38ab21" height="30.0" layoutX="181.0" layoutY="140.0" stroke="WHITE" strokeType="INSIDE" width="344.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#38ab21" height="537.0" layoutX="595.0" layoutY="30.0" stroke="WHITE" strokeType="INSIDE" width="33.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#38ab21" height="30.0" layoutX="187.0" layoutY="537.0" stroke="WHITE" strokeType="INSIDE" width="438.0" />
+      <Line endX="-100.0" endY="-68.5" layoutX="285.0" layoutY="136.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-108.5" endY="-62.5" layoutX="293.0" layoutY="199.0" startX="226.5" startY="-62.5" stroke="RED" />
+      <Line endX="-100.0" endY="-64.0" layoutX="284.0" layoutY="239.0" startX="235.0" startY="-64.0" stroke="RED" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0e800" height="84.0" layoutX="47.0" layoutY="478.0" stroke="#e6ff01" strokeType="INSIDE" width="53.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0e800" height="66.0" layoutX="186.0" layoutY="502.0" stroke="#526d8a" strokeType="INSIDE" width="43.0" />
+      <Label alignment="BASELINE_LEFT" layoutX="207.0" layoutY="398.0" nodeOrientation="LEFT_TO_RIGHT" text="E1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="275.0" layoutY="397.0" nodeOrientation="LEFT_TO_RIGHT" text="E2" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="341.0" layoutY="396.0" nodeOrientation="LEFT_TO_RIGHT" text="E3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="412.0" layoutY="398.0" nodeOrientation="LEFT_TO_RIGHT" text="E4" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="474.0" layoutY="313.0" nodeOrientation="LEFT_TO_RIGHT" text="E10" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="412.0" layoutY="315.0" nodeOrientation="LEFT_TO_RIGHT" text="E9" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="345.0" layoutY="314.0" nodeOrientation="LEFT_TO_RIGHT" text="E8" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="467.0" layoutY="357.0" nodeOrientation="LEFT_TO_RIGHT" text="E7" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="200.0" layoutY="192.0" nodeOrientation="LEFT_TO_RIGHT" text="E11" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="270.0" layoutY="192.0" nodeOrientation="LEFT_TO_RIGHT" text="E12" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="337.0" layoutY="192.0" nodeOrientation="LEFT_TO_RIGHT" text="E13" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="406.0" layoutY="192.0" nodeOrientation="LEFT_TO_RIGHT" text="E14" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="400.0" layoutY="357.0" nodeOrientation="LEFT_TO_RIGHT" text="E6" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="477.0" layoutY="397.0" nodeOrientation="LEFT_TO_RIGHT" text="E5" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="469.0" layoutY="192.0" nodeOrientation="LEFT_TO_RIGHT" text="E15" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="203.0" layoutY="98.0" nodeOrientation="LEFT_TO_RIGHT" text="E16" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="334.0" layoutY="98.0" nodeOrientation="LEFT_TO_RIGHT" text="E18" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="395.0" layoutY="98.0" nodeOrientation="LEFT_TO_RIGHT" text="E19" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="469.0" layoutY="98.0" nodeOrientation="LEFT_TO_RIGHT" text="E20" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="333.0" layoutY="653.0" mnemonicParsing="false" onMouseClicked="#OnMouseClicked" prefHeight="37.0" prefWidth="105.0" style="-fx-background-color: RED;" text="Iniciar" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0e800" height="530.0" layoutX="46.0" layoutY="32.0" stroke="#e6ff01" strokeType="INSIDE" width="33.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7b848d" height="580.0" layoutX="624.0" layoutY="29.0" stroke="#7b848d" strokeType="INSIDE" strokeWidth="20.0" width="87.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7b848d" height="71.0" layoutX="27.0" layoutY="566.0" stroke="#7b848d" strokeType="INSIDE" width="686.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="767.0" layoutY="59.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="768.0" layoutY="181.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="768.0" layoutY="119.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="770.0" layoutY="241.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="771.0" layoutY="363.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="771.0" layoutY="301.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="772.0" layoutY="420.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="773.0" layoutY="542.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="773.0" layoutY="480.0" startX="-100.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="790.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="734.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="680.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="628.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="572.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="518.0" layoutY="561.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="462.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="406.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="352.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="302.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="246.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-100.0" endY="40.0" layoutX="192.0" layoutY="560.0" startX="-138.0" startY="40.0" stroke="#b0ff05" strokeWidth="5.0" />
+      <Line endX="-16.0" layoutX="727.0" layoutY="559.0" startX="-100.0" stroke="WHITE" strokeWidth="8.0" />
+      <Line endX="-100.0" endY="-70.0" layoutX="353.0" layoutY="136.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-69.5" layoutX="419.0" layoutY="137.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-66.5" layoutX="486.0" layoutY="135.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-65.5" layoutX="554.0" layoutY="135.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-67.5" layoutX="620.0" layoutY="136.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-68.5" layoutX="284.0" layoutY="244.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-70.0" layoutX="353.0" layoutY="245.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-69.5" layoutX="419.0" layoutY="245.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-66.5" layoutX="486.0" layoutY="243.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-65.5" layoutX="554.0" layoutY="243.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-67.5" layoutX="620.0" layoutY="244.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-68.5" layoutX="288.0" layoutY="349.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-108.5" endY="-62.5" layoutX="296.0" layoutY="412.0" startX="226.5" startY="-62.5" stroke="RED" />
+      <Line endX="-100.0" endY="-64.0" layoutX="288.0" layoutY="452.0" startX="235.0" startY="-64.0" stroke="RED" />
+      <Line endX="-100.0" endY="-70.0" layoutX="356.0" layoutY="349.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-69.5" layoutX="422.0" layoutY="350.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-66.5" layoutX="489.0" layoutY="348.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-65.5" layoutX="557.0" layoutY="348.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-67.5" layoutX="623.0" layoutY="349.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-68.5" layoutX="288.0" layoutY="457.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-70.0" layoutX="356.0" layoutY="457.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-69.5" layoutX="422.0" layoutY="458.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-66.5" layoutX="489.0" layoutY="456.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-65.5" layoutX="557.0" layoutY="456.0" startX="-100.0" stroke="#ee0202" />
+      <Line endX="-100.0" endY="-67.5" layoutX="623.0" layoutY="457.0" startX="-100.0" stroke="#ee0202" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#38ab21" height="30.0" layoutX="186.0" layoutY="353.0" stroke="WHITE" strokeType="INSIDE" width="344.0" />
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="189.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="256.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="323.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="391.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="458.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="190.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="257.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="324.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="392.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="459.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="186.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="253.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="320.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="185.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="251.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="318.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="386.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="453.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="305.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="485.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="292.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="491.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="109.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="109.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="109.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/flechas.png" />
+         </image>
+      </ImageView>
+      <Label alignment="BASELINE_LEFT" layoutX="270.0" layoutY="98.0" nodeOrientation="LEFT_TO_RIGHT" text="E17" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="387.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="66.0" layoutX="454.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/tope.png" />
+         </image>
+      </ImageView>
+      <Label alignment="BASELINE_LEFT" layoutX="275.0" layoutY="311.0" nodeOrientation="LEFT_TO_RIGHT" text="E7" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" layoutX="208.0" layoutY="314.0" nodeOrientation="LEFT_TO_RIGHT" text="E6" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="27.0" layoutX="628.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="667.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="53.0" fitWidth="26.0" layoutX="629.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/carroC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="53.0" layoutX="202.0" layoutY="567.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/carro2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="53.0" layoutX="363.0" layoutY="567.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/carro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="209.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="279.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="418.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="276.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="27.0" layoutX="414.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="58.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="54.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="54.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="246.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="349.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="412.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="299.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="458.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="508.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/arbol3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="66.0" layoutX="112.0" layoutY="579.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/carroH.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="486.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/carroI.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="countEntrada" layoutX="198.0" layoutY="527.0" prefHeight="17.0" prefWidth="27.0" />
+      <Label fx:id="countSalida" layoutX="65.0" layoutY="519.0" prefHeight="31.0" prefWidth="33.0" />
+      <Label layoutX="65.0" layoutY="494.0" text="Salida" />
+      <Label layoutX="187.0" layoutY="503.0" text="Entrada" />
+   </children>
+</AnchorPane>
